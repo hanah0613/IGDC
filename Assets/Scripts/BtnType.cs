@@ -5,12 +5,12 @@ using UnityEngine.EventSystems;
 
 public class BtnType : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
 {
-    public BTNType currentType;                         //클릭한 버튼의 종류
-    public Transform buttonScale;                       //현재 버튼의 크기
-    Vector3 defaultScale;                               //버튼의 원래크기
-    bool isSound;                                       //사운드 ON/OFF
-    public CanvasGroup mainGroup;                       //캔버스그룹 - 메인메뉴그룹
-    public CanvasGroup optionGroup;                     //캔버스그룹 - 옵션메뉴그룹
+    public BTNType currentType;                         //클릭한 버튼의 종류 변수
+    public Transform buttonScale;                       //버튼의 크기 변수
+    Vector3 defaultScale;                               //버튼의 원래 크기 변수
+    bool isSound;                                       //사운드 ON/OFF 상태 변수
+    public CanvasGroup mainGroup;                       //캔버스 - 메인메뉴그룹
+    public CanvasGroup optionGroup;                     //캔버스 - 옵션메뉴그룹
 
     private void Start()
     {
