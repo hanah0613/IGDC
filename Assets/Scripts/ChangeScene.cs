@@ -12,14 +12,12 @@ public class ChangeScene : MonoBehaviour
             case "NewBtn":  //유저를 만드는 씬으로 이동
                 SceneManager.LoadScene("MakeUser");
                 break;
-            case "ContinueBtn": //게임을 이어서 플레이 하는 씬으로 이동
-                SceneManager.LoadScene("PlayContinue");
+            case "StartBtn":    //게임을 플레이 하는 씬으로 이동
+            case "ContinueBtn": //게임을 플레이 하는 씬으로 이동
+                SceneManager.LoadScene("PlayGame");
                 break;
             case "BackBtn":     //메인씬으로 이동
                 SceneManager.LoadScene("Main");
-                break;
-            case "StartBtn":    //게임을 새롭게 플레이 하는 씬으로 이동
-                SceneManager.LoadScene("PlayNew");
                 break;
         }
     }

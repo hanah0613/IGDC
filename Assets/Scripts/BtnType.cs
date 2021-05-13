@@ -79,5 +79,5 @@ public class BtnType : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
     public void OnPointerExit(PointerEventData eventData)       //커서가 버튼 위에서 네려갈때 실행
     {
         buttonScale.localScale = defaultScale;                  //버튼 크기 초기화
-    }  
+    }
 }
