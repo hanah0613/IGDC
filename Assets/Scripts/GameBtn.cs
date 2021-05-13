@@ -12,6 +12,7 @@ public class GameBtn : MonoBehaviour
     public CanvasGroup millGroup;
     public CanvasGroup shopGroup;
 
+
     public void OnBtnClick()                            //버튼을 클릭했을때 실행됨
     {
         switch (currentType)
