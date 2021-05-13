@@ -6,10 +6,12 @@ public enum BTNType           //메인화면 버튼의 종류
 {
     New,
     Continue,
-    Option,
+    Setting,
     Sound,
     Back,
-    Quit
+    Quit,
+    Mill,
+    Shop,
 }
 
 public class MainUI : MonoBehaviour

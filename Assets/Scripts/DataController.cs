@@ -132,7 +132,7 @@ public class DataController : MonoBehaviour
         }
     }
 
-    public void resetAll()  //유저를 새로 만들때 리셋하는 부분
+    public void ResetAll()  //유저를 새로 만들때 리셋하는 부분
     {
         SetGold(0);
         SetGoldPerClick(1);
